@@ -41,6 +41,7 @@ const siteContent = {
 let logo = document.getElementById("logo-img");
 logo.setAttribute('src', siteContent["nav"]["img-src"]);
 
+<<<<<<< HEAD
 let headerImg = document.getElementById("cta-img");
 headerImg.setAttribute('src', siteContent["cta"]["img-src"]);
 
@@ -60,3 +61,11 @@ const firstH1 = document.getElementsByTagName('h1');
 
 const footElem = document.getElementsByTagName("footer");
 footElem.body.apend(footElem)*/
+=======
+let header = document.getElementById("cta-img");
+header.setAttribute('src', siteContent["cta"]["img-src"]);
+function navBar() {
+  let nav = document.getElementsByTagName(nav);
+  return nav;
+}
+>>>>>>> 5fe59efffac57258842fccc4a629f7f606afc100
