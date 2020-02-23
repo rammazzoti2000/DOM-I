@@ -41,10 +41,22 @@ const siteContent = {
 let logo = document.getElementById("logo-img");
 logo.setAttribute('src', siteContent["nav"]["img-src"]);
 
-let middleImg = document.getElementById("cta-img");
-middleImg.setAttribute('src', siteContent["cta"]["img-src"]);
+let headerImg = document.getElementById("cta-img");
+headerImg.setAttribute('src', siteContent["cta"]["img-src"]);
 
-let header = document.getElementById("middle-img");
-header.setAttribute('src', siteContent["main-content"]["middle-img-src"]);
+let middleImg = document.getElementById("middle-img");
+middleImg.setAttribute('src', siteContent["main-content"]["middle-img-src"]);
 
-const navBar = document.querySelectorAll("a");
+
+
+const navBar = document.getElementsByTagName("a");
+
+
+const firstH1 = document.getElementsByTagName('h1');
+
+/*navBar.forEach (elem => 
+  elem.setAttribute('href', siteContent["nav"]["nav-item-1"])
+);
+
+const footElem = document.getElementsByTagName("footer");
+footElem.body.apend(footElem)*/
