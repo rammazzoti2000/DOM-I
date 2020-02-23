@@ -41,9 +41,10 @@ const siteContent = {
 let logo = document.getElementById("logo-img");
 logo.setAttribute('src', siteContent["nav"]["img-src"]);
 
-let header = document.getElementById("cta-img");
-header.setAttribute('src', siteContent["cta"]["img-src"]);
-function navBar() {
-  let nav = document.getElementsByTagName(nav);
-  return nav;
-}
+let middleImg = document.getElementById("cta-img");
+middleImg.setAttribute('src', siteContent["cta"]["img-src"]);
+
+let header = document.getElementById("middle-img");
+header.setAttribute('src', siteContent["main-content"]["middle-img-src"]);
+
+const navBar = document.querySelectorAll("a");
